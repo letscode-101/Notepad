@@ -20,11 +20,11 @@ private MenuItem saveFile = new MenuItem(); // a save option
 
 private MenuItem close = new MenuItem(); // and a close option!
 
-public Notepad() {
+public source() {
 
 this.setSize(500, 300); // set the initial size of the window
 
-this.setTitle("Java Notepad Tutorial"); // set the title of the window
+this.setTitle("Simple Notepad"); // set the title of the window
 
 setDefaultCloseOperation(EXIT_ON_CLOSE); // set the default close operation (exit when it gets closed)
 
